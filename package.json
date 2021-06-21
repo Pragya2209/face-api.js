@@ -23,6 +23,9 @@
     "test-cpu": "set BACKEND_CPU=true&& karma start",
     "docs": "typedoc --options ./typedoc.config.js ./src"
   },
+  "engines": {
+    "node": "10.19.0"
+},
   "keywords": [
     "face",
     "detection",
